@@ -52,11 +52,7 @@ python train.py -i data/albert.jpg --enc_method hashgrid --visualize
 
 ![](https://github.com/Ending2015a/hash-grid-encoding/blob/master/data/tokyo-compare.gif)
 
-
-
-https://user-images.githubusercontent.com/18180004/174230668-c2ed873c-8a00-4559-a37f-b4ce8c3af132.mp4
-
-
+https://user-images.githubusercontent.com/18180004/174231919-16705ae3-357e-4c50-832c-bae6f1d92556.mp4
 
 Download [the tokyo image](https://www.flickr.com/photos/trevor_dobson_inefekt69/29314390837) and place it at `data/tokyo.jpg`.
 
