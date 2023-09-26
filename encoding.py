@@ -163,7 +163,7 @@ class MultiResHashGrid(nn.Module):
     self.finest_resolution = finest_resolution
 
     # from paper eq (3)
-    b = math.exp((math.log(finest_resolution) - math.log(base_resolution))/(base_resolution-1))
+    b = math.exp((math.log(finest_resolution) - math.log(base_resolution))/(n_levels-1))
 
     levels = []
     for level_idx in range(n_levels):
